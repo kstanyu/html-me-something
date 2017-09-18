@@ -6,6 +6,7 @@ body {
     margin-bottom:
     margin-left:
     font-family: "HelveticaNeue", Helvetica. Arial, sans-serif;
+    color: #ffffff;
 }
 
 #main-page {
@@ -15,16 +16,135 @@ body {
     margin-bottom: 0px;
     margin-left: auto;
     width: 980px;
+    
+}
+h2 {
+    font-size: 60   px;
+    font-family: ubuntu;
+}
+h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+h4 {
+    font-weight: bold;
+    font-style: italic;
 }
 header {
     height: 120px;
     width: 980px;`
     display: block;
 }
+
 #header-title {
-    width: 75%; 
+    width: 800px;
+    float: left;
+    margin: auto;
+    text-align: center; 
 }
 
 #header-image {
-    width: 25%;
+    width: 164px;
+    float: left;
 }
+
+#left-col {
+    float: left;
+    margin-right: 5px;
+    width: 750px;
+    word-wrap: break-word;
+    word-break: keep-all;
+    border-radius: 4px;
+    border: 1px solid #343434;
+}
+
+#tech-skills {
+    background-image: url("images/binary.jpg");
+}
+#tech-skill-image {
+    float: left;
+    object-fit: contain;
+}
+
+#right-col {
+    float: right;
+    width: 164px;
+    word-wrap: break-word;
+    word-break: keep-all;
+    border-radius: 4px;
+    border: 1px solid #343434;
+}
+footer { 
+    margin-top: 12px;
+    margin-bottom: 12px;
+    clear: both;
+    height: 172px;
+    width: 978px;
+    /*border-color: #343434;
+    border-radius:4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #343434;
+    border-top-style: solid;
+    border-top-width: 1px;  
+    */
+}
+
+#footer-left-col {
+    float: left;
+    width: 800px;
+    border-radius: 4px;
+    border: 1px solid #343434;
+}
+.copyright {
+    list-style-type: none;
+    margin-right: 30px;
+    line-height: 32px;
+    font-size: 24px;
+    color: #888888;
+    clear: none;
+    float: left;
+}
+.media-links {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    line-height: 32px;
+    color: #888888;
+    clear: none;
+}
+#prompt {
+    text-align: center;
+    font font-size: 24px;
+}
+#footer-left-top {
+    height: 75%;
+
+}
+#footer-left-bottom {
+    height: 25%;
+}
+
+#footer-right-col {
+    float: left;
+     width: 164px;
+    border-radius: 4px;
+    border: 1px solid #343434;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
