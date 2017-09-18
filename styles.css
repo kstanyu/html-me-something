@@ -21,3 +21,10 @@ header {
     width: 980px;`
     display: block;
 }
+#header-title {
+    width: 75%; 
+}
+
+#header-image {
+    width: 25%;
+}
