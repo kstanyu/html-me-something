@@ -16,3 +16,8 @@ body {
     margin-left: auto;
     width: 980px;
 }
+header {
+    height: 120px;
+    width: 980px;`
+    display: block;
+}
